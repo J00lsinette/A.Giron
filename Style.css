@@ -214,6 +214,7 @@ button:hover {
     height: auto;
     background: radial-gradient(rgb(173, 253, 186), rgb(200, 247, 208)) ;
     color:black;
+    padding : 5px;
   }
 .mes_skills {
     padding-top: 60px;
