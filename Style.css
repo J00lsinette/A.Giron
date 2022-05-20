@@ -32,7 +32,6 @@ header {
 
 h1 {
     display:block;
-    float: inline-start;
     text-transform: uppercase ;
     letter-spacing: 5px;
     font-size: 4rem;
