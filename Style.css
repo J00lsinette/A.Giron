@@ -1,0 +1,417 @@
+/*Caractèristiques généraux*/
+body {
+    margin : 2%;
+    height: 1.5vh;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background: black;
+}
+
+.menu-small{
+        display: none;
+    }
+.menu-small a:hover {
+    background: radial-gradient(black,rgb(70, 70, 70)) ;
+    color: rgb(122, 255, 237);
+    box-shadow: 3px 4px 7px rgb(223, 221, 221); 
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+}
+
+a:hover{
+        color: rgb(122, 255, 237);
+}
+
+header {
+    display: block ;
+    background: linear-gradient(transparent, rgb(10, 0, 44), transparent);
+}
+
+h1 {
+    float: inline-start;
+    text-transform: uppercase ;
+    letter-spacing: 5px;
+    font-size: 3rem;
+    color : transparent;
+    text-shadow: -4px 8px 15px white;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    ;
+}
+
+@keyframes titre {
+    0% {letter-spacing: 5px;}
+    100% {letter-spacing: 15px;}
+}
+h1:hover {
+    text-shadow: -4px 8px 15px rgb(122, 255, 237);
+    animation: titre 2s ease-in-out 0s alternate infinite ;
+}
+
+h2 {display: flexbox ;
+    text-align: center;
+    padding : 15px;
+    color:rgb(255, 255, 255);
+    text-shadow: 3px 3px 15px  ;
+}
+
+
+
+h3 {
+    text-decoration: underline;
+    text-align: center;
+    color :rgba(215, 255, 250, 0.63);
+    animation: titre3 1s ease 0s infinite alternate
+}
+@keyframes titre3 {
+    0% {text-shadow:0.1px 0.1px 10px rgba(255, 255, 255, 0.596);}
+
+    100% {text-shadow: 0.5px 0.5px 20px rgba(255, 255, 255, 0.596);}
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.menu a {
+    text-transform: uppercase ;
+    margin : 5px;
+    width : 1fr;
+    height: 7vh;
+    border-radius: 15% 0 15% 0;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    text-align: center;
+    display: inline-block;
+    color:black;
+    background: radial-gradient(rgb(213, 255, 253), transparent) ;   
+    align-content: space-around;
+    text-shadow: -2px 2px 5px white ;
+}
+
+.menu a:hover {
+    background: radial-gradient(black,rgb(97, 96, 96)) ;
+    color: rgb(122, 255, 237);
+    text-shadow: -4px 8px 15px rgb(122, 255, 237);
+    animation: menuchoix 2s ease-in-out 0s alternate infinite ;
+    box-shadow: 3px 4px 7px rgb(223, 221, 221);
+}
+@keyframes menuchoix {
+    0% {letter-spacing: normal;}
+    100% {letter-spacing: 5px;}
+    
+}
+a>img {
+    display: flex;
+    text-align: center;    
+    margin : auto;
+    width: 8rem;
+    height: auto;
+    border-radius: 50%;
+    border:white, 3px, solid;
+    position:fixed;
+    bottom:30px;
+    right:0;
+}
+
+a>img:hover {
+    animation: write 1.2s ease-in-out alternate infinite;
+}
+
+@keyframes write {
+    0% { box-shadow: 1px 2px 8px white;}
+    100% {box-shadow: 2px 4px 15px white;}
+}
+.contact {
+    display: flex;
+    text-align: center;    
+    margin : auto;
+    padding-top: 0%;
+    position:fixed;
+    color: rgb(153, 153, 153) ;
+    animation: 1s ease-in-out 0s infinite alternate hello;
+    font-size: 3rem;
+  }
+article {
+    color:white;
+    justify-content: center;
+    display: block;
+    margin-top: 60px;
+    padding: 30px;
+    width:90%;
+    height: 100%;
+    background: linear-gradient(black,rgb(10, 0, 44), black);
+    border :  white double 3px;
+    text-align: justify;
+}
+article img  {
+    height: 30vh;
+    width: auto;
+}
+
+button {
+    width: 30px;
+    background: black;
+    display: flex;
+    text-align: center; 
+    justify-self: right;   
+    margin : auto;  
+
+}
+button:hover {
+    background: rgb(5, 136, 118);
+}
+
+@keyframes hello {
+    0% {bottom:120px; right:100px; z-index: 1;}
+  
+    100% {bottom: 120px; right:100px; z-index:1; transform: rotate(25deg)};
+    }
+
+/*Mon Projet*/
+.Monprojet {
+    padding-top: 60px;
+    background: radial-gradiant(rgb(5, 0, 22),black,black,black);
+    text-align: justify;
+}
+
+
+.content {
+    display: grid;
+    grid-template-columns:1fr 10fr 1fr;
+    color:white;
+}
+
+
+/*Savoir faire et savoir être*/
+
+.Cara>.description{
+    display: none;
+  }
+  
+  .Cara{
+    width: 100%;
+    height: fit-content;
+    padding: 1%;
+    background: radial-gradient(rgb(9, 0, 46),transparent) ;
+    text-align: center;
+    border:white double 1px
+  }
+  .Cara:hover .description{
+    display: block;
+    text-align: left;
+  }
+  .Cara:hover {
+    transition: all 2s ease;
+    box-shadow:2px 2px 15px white;
+    width: 100%;
+    height: auto;
+    background: radial-gradient(rgb(173, 253, 186), rgb(200, 247, 208)) ;
+    color:black;
+  }
+.mes_skills {
+    padding-top: 60px;
+    display : grid;
+    grid-template-columns: 5fr 1fr 5fr;
+    color : white;
+}
+
+
+.savoir-faire{
+
+    display: grid;
+    border : double white;
+    
+}
+
+/*CV*/
+aside.EXP{
+    background: linear-gradient(black,rgb(10, 0, 44), black);
+    display: block;
+    justify-content: center;
+    margin-top : 60px;
+    padding: 5%;
+    width:90%;
+    height: 100%;
+    display : block;
+    border : double 3px white;;
+}
+.Experience>.action{
+    display: none;
+  }
+  
+.Experience{
+    margin: 2%;
+    width: auto;
+    height: fit-content;
+    padding: 1%;
+    background: rgb(136, 148, 255);
+    border:white solid 2px;
+    color:rgb(1, 9, 22);
+  }
+
+
+.Experience:hover .action{
+    display: block;
+  }
+.Experience:hover {
+    transition: all 0.8s ease;
+    box-shadow: 2px 2px 15px white;
+    width: auto;
+    height: auto;
+    background: rgb(247, 205, 172);
+    color:black;
+  }
+.content-bis{
+    display: grid;
+    grid-template-columns: 3fr 2fr 7fr;
+}
+  
+.Portrait_CV {
+    width: 15vw;
+    height: auto;
+    border:2px solid white;
+    padding: 3px;
+}
+/*Passion*/
+.Passion {
+    border-radius: 15px 15px 0% 0%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 2fr 9fr;
+    color: rgb(153, 153, 153) ;
+    padding: 15px;
+    border: 2px solid rgb(116, 116, 116);
+    background: radial-gradient(rgb(2, 20, 48),black);
+}
+
+.info {
+    border : solid;
+    font-size: 0.3rem;
+}
+.menupassion {
+    display: grid;
+    height : 90vh;
+    grid-template-rows: 4fr 4fr 4fr;
+    
+}
+.menupassionbis{
+    display: grid;
+
+    height : 25vh;
+    grid-template-rows: 4fr 4fr 4fr;  
+}
+.passgroup {
+    
+    justify-content: center;
+    align-content: center;
+    border : 2px solid rgb(116, 116, 116);
+    writing-mode:vertical-lr;
+    font-size: 3vw;
+    text-transform: uppercase;
+    margin-bottom: 15%;
+    background: radial-gradient(transparent, rgb(34, 34, 34)) ;
+}
+
+.passionsubject1, .passionsubject2, .passionsubject3, .passionsubject4, .passionsubject5, .passionsubject6, .passionsubject7 {
+    border:0.5px solid rgb(116, 116, 116);
+    background: radial-gradient(rgb(213, 255, 253), transparent) ; 
+    color:rgb(5, 0, 22);
+    overflow: visible;
+    width: 10vw;
+    height: 6vh;
+}
+.sreenpassion {
+    display: flex;
+    position: absolute;
+    border: double 4px white;
+    background: yellow;
+    right: 10%;
+    width: 60vw;
+    height: 60vh;
+    z-index: 0;
+}
+
+
+
+.hoopdance {
+    display: none;
+    z-index: 1;
+    width: 60vw;
+    height: 60vh;
+}
+
+.passionsubject2:hover .hoopdance {
+    display: flow-root;
+    overflow: visible;
+    flex-wrap: wrap;
+    width : 25vw;
+    display : flex;
+    position: relative;
+    left : 15vw;  
+}
+.passionsubject2:hover .screenpassion {
+    background: white;
+}
+.screenpassion:hover .hoopdance{
+    display: none;
+}
+.poledance {
+    display: none;
+}
+.poledance img {
+    width: 15%;
+    height: auto;
+
+}
+
+@media screen and (max-width:980px) {
+
+    .menu {
+        display: none;
+    }
+
+    .menu-small {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .menu-small a {
+        margin : 5px;
+        width : 1fr;
+        height: 5vh;
+        border-radius: 15% 0 15% 0;
+        font-family: monospace;
+        font-weight: 700;
+        font-size: 15px;
+        text-align: center;
+        display: inline-block;
+        color:black;
+        background: radial-gradient(rgb(213, 255, 253), transparent) ;   
+        align-content: space-around;
+        text-shadow: -2px 2px 5px white ;
+        }
+}
+
+@media screen and (max-width:650px) {
+
+    h2 {
+        display: none;
+    }
+    main {
+        grid-template-columns: 14fr 1fr;
+    } 
+    .Monprojet {
+        width: 80vW;
+    } 
+}
+
+
+
+
+
