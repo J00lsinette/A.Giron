@@ -371,46 +371,7 @@ aside.EXP{
 
 }
 
-@media screen and (max-width:980px) {
 
-    .menu {
-        display: none;
-    }
-
-    .menu-small {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
-
-    .menu-small a {
-        margin : 5px;
-        width : 1fr;
-        height: 5vh;
-        border-radius: 15% 0 15% 0;
-        font-family: monospace;
-        font-weight: 700;
-        font-size: 15px;
-        text-align: center;
-        display: inline-block;
-        color:black;
-        background: radial-gradient(rgb(213, 255, 253), transparent) ;   
-        align-content: space-around;
-        text-shadow: -2px 2px 5px white ;
-        }
-}
-
-@media screen and (max-width:650px) {
-
-    h2 {
-        display: none;
-    }
-    main {
-        grid-template-columns: 14fr 1fr;
-    } 
-    .Monprojet {
-        width: 80vW;
-    } 
-}
 
 
 
