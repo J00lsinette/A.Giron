@@ -281,7 +281,7 @@ aside.EXP{
     padding: 3px;
 }
 /*Passion*/
-.loisirs button {
+.loisirs>button {
     margin: 2%;
     width: auto;
     height: fit-content;
