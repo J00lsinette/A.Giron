@@ -345,7 +345,7 @@ aside.EXP{
         width: 80vW;
     } 
 }*/
-@media screen and (max-device-width:450px) {
+@media screen and (max-device-width: 450px) {
 
     .Cara .description {
         display:block;
