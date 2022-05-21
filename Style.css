@@ -281,94 +281,19 @@ aside.EXP{
     padding: 3px;
 }
 /*Passion*/
-.Passion {
-    border-radius: 15px 15px 0% 0%;
-    text-align: center;
-    display: grid;
-    grid-template-columns: 1fr 2fr 9fr;
-    color: rgb(153, 153, 153) ;
-    padding: 15px;
-    border: 2px solid rgb(116, 116, 116);
-    background: radial-gradient(rgb(2, 20, 48),black);
+.loisirs button {
+    margin: 2%;
+    width: auto;
+    height: fit-content;
+    padding: 1%;
+    background: rgb(136, 148, 255);
+    border:white solid 2px;
+    color:rgb(1, 9, 22);
 }
+    
 
 .info {
     border : solid;
-}
-.menupassion {
-    display: grid;
-    height : 90vh;
-    grid-template-rows: 4fr 4fr 4fr;
-    
-}
-.menupassionbis{
-    display: grid;
-
-    height : 25vh;
-    grid-template-rows: 4fr 4fr 4fr;  
-}
-.passgroup {
-    
-    justify-content: center;
-    align-content: center;
-    border : 2px solid rgb(116, 116, 116);
-    writing-mode:vertical-lr;
-    font-size: 3vw;
-    text-transform: uppercase;
-    margin-bottom: 15%;
-    background: radial-gradient(transparent, rgb(34, 34, 34)) ;
-}
-
-.passionsubject1, .passionsubject2, .passionsubject3, .passionsubject4, .passionsubject5, .passionsubject6, .passionsubject7 {
-    border:0.5px solid rgb(116, 116, 116);
-    background: radial-gradient(rgb(213, 255, 253), transparent) ; 
-    color:rgb(5, 0, 22);
-    overflow: visible;
-    width: 10vw;
-    height: 6vh;
-}
-.sreenpassion {
-    display: flex;
-    position: absolute;
-    border: double 4px white;
-    background: yellow;
-    right: 10%;
-    width: 60vw;
-    height: 60vh;
-    z-index: 0;
-}
-
-
-
-.hoopdance {
-    display: none;
-    z-index: 1;
-    width: 60vw;
-    height: 60vh;
-}
-
-.passionsubject2:hover .hoopdance {
-    display: flow-root;
-    overflow: visible;
-    flex-wrap: wrap;
-    width : 25vw;
-    display : flex;
-    position: relative;
-    left : 15vw;  
-}
-.passionsubject2:hover .screenpassion {
-    background: white;
-}
-.screenpassion:hover .hoopdance{
-    display: none;
-}
-.poledance {
-    display: none;
-}
-.poledance img {
-    width: 15%;
-    height: auto;
-
 }
 
 
