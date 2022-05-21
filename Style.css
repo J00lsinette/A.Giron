@@ -297,8 +297,9 @@ aside.EXP{
     border : solid;
 }
 .video {
-    padding-left : 25%;
-    padding-right : 25%;
+    display : block;
+    margin : auto;
+}
 
 
 /*
