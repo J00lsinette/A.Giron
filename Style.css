@@ -347,16 +347,6 @@ aside.EXP{
 }*/
 @media screen and (max-device-width:450px) {
 
-    h2 {
-        display: none;
-    }
-    main {
-        grid-template-columns: 14fr 1fr;
-    } 
-    .Monprojet {
-        width: 80vW;
-    } 
-
     .Cara .description {
         display:block;
         text-align: left;
