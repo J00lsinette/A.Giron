@@ -345,7 +345,7 @@ aside.EXP{
         width: 80vW;
     } 
 }*/
-@media screen and (max-width:800px) {
+@media screen and (max-width:200px) {
 
     h2 {
         display: none;
