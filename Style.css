@@ -282,6 +282,7 @@ aside.EXP{
 }
 /*Passion*/
 .loisirs {
+    display: inblock;
     margin: 2%;
     width: auto;
     height: fit-content;
